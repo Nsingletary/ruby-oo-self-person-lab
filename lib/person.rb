@@ -65,4 +65,4 @@ class Person
       [friend, self].each {|o| o.happiness += 3 }
       "Hi #{friend.name}! It's #{self.name}. How are you?"
     end
-  
+end
